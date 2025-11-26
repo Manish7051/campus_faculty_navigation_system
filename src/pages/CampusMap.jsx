@@ -47,7 +47,7 @@ const CampusMap = () => {
         console.error("Error fetching buildings:", error);
       }
     };
-    fetchBuildings();
+    fetchBuildings()
 
     // Live location tracking
     if (navigator.geolocation) {
